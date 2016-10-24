@@ -2121,32 +2121,30 @@
 }
 #u162 {
   position:absolute;
-  left:92px;
-  top:0px;
+  left:90px;
+  top:2px;
   width:200px;
-  height:22px;
+  height:25px;
 }
 #u162_input {
   position:absolute;
   left:0px;
   top:0px;
   width:200px;
-  height:22px;
+  height:25px;
   font-family:'ArialMT', 'Arial';
   font-weight:400;
   font-style:normal;
   font-size:16px;
   text-decoration:none;
   color:#000000;
-}
-#u162_input:disabled {
-  color:grayText;
+  text-align:left;
 }
 #u163 {
   position:absolute;
-  left:0px;
-  top:4px;
-  width:65px;
+  left:20px;
+  top:7px;
+  width:33px;
   height:16px;
   font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
   font-weight:200;
@@ -2157,14 +2155,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:65px;
+  width:33px;
   height:16px;
 }
 #u164 {
   position:absolute;
   left:0px;
   top:0px;
-  width:65px;
+  width:33px;
   white-space:nowrap;
 }
 #u161_state1 {
@@ -2183,30 +2181,32 @@
 }
 #u165 {
   position:absolute;
-  left:90px;
-  top:2px;
+  left:92px;
+  top:0px;
   width:200px;
-  height:25px;
+  height:22px;
 }
 #u165_input {
   position:absolute;
   left:0px;
   top:0px;
   width:200px;
-  height:25px;
+  height:22px;
   font-family:'ArialMT', 'Arial';
   font-weight:400;
   font-style:normal;
   font-size:16px;
   text-decoration:none;
   color:#000000;
-  text-align:left;
+}
+#u165_input:disabled {
+  color:grayText;
 }
 #u166 {
   position:absolute;
-  left:20px;
-  top:7px;
-  width:33px;
+  left:0px;
+  top:4px;
+  width:65px;
   height:16px;
   font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
   font-weight:200;
@@ -2217,14 +2217,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:33px;
+  width:65px;
   height:16px;
 }
 #u167 {
   position:absolute;
   left:0px;
   top:0px;
-  width:33px;
+  width:65px;
   white-space:nowrap;
 }
 #u168 {
@@ -2389,7 +2389,7 @@
   left:188px;
   top:860px;
   width:801px;
-  height:208px;
+  height:288px;
   font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
   font-weight:200;
   font-style:normal;
@@ -2400,7 +2400,7 @@
   left:0px;
   top:0px;
   width:801px;
-  height:208px;
+  height:288px;
 }
 #u178 {
   position:absolute;

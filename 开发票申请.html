@@ -788,16 +788,12 @@
 
             <!-- 发票抬头 (动态面板) -->
             <div id="u161" class="ax_动态面板" data-label="发票抬头">
-              <div id="u161_state0" class="panel_state" data-label="专票">
+              <div id="u161_state0" class="panel_state" data-label="普票">
                 <div id="u161_state0_content" class="panel_state_content">
 
-                  <!-- Unnamed (下拉列表框) -->
-                  <div id="u162" class="ax_下拉列表框">
-                    <select id="u162_input">
-                      <option value="xxx公司">xxx公司</option>
-                      <option value="xxx公司">xxx公司</option>
-                      <option value="xxx公司">xxx公司</option>
-                    </select>
+                  <!-- 金额输入框 (文本框) -->
+                  <div id="u162" class="ax_文本框" data-label="金额输入框">
+                    <input id="u162_input" type="text" value=""/>
                   </div>
 
                   <!-- Unnamed (形状) -->
@@ -805,17 +801,21 @@
                     <img id="u163_img" class="img " src="resources/images/transparent.gif"/>
                     <!-- Unnamed () -->
                     <div id="u164" class="text">
-                      <p><span>发票信息</span></p>
+                      <p><span>名称</span></p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div id="u161_state1" class="panel_state" data-label="普票">
+              <div id="u161_state1" class="panel_state" data-label="专票">
                 <div id="u161_state1_content" class="panel_state_content">
 
-                  <!-- 金额输入框 (文本框) -->
-                  <div id="u165" class="ax_文本框" data-label="金额输入框">
-                    <input id="u165_input" type="text" value=""/>
+                  <!-- Unnamed (下拉列表框) -->
+                  <div id="u165" class="ax_下拉列表框">
+                    <select id="u165_input">
+                      <option value="xxx公司">xxx公司</option>
+                      <option value="xxx公司">xxx公司</option>
+                      <option value="xxx公司">xxx公司</option>
+                    </select>
                   </div>
 
                   <!-- Unnamed (形状) -->
@@ -823,7 +823,7 @@
                     <img id="u166_img" class="img " src="resources/images/transparent.gif"/>
                     <!-- Unnamed () -->
                     <div id="u167" class="text">
-                      <p><span>名称</span></p>
+                      <p><span>发票信息</span></p>
                     </div>
                   </div>
                 </div>
@@ -871,8 +871,8 @@
             <!-- Unnamed (下拉列表框) -->
             <div id="u176" class="ax_下拉列表框">
               <select id="u176_input">
-                <option value="增值税专业发票">增值税专业发票</option>
                 <option value="增值税普通发票">增值税普通发票</option>
+                <option value="增值税专业发票">增值税专业发票</option>
               </select>
             </div>
           </div>
@@ -884,7 +884,7 @@
         <img id="u177_img" class="img " src="resources/images/transparent.gif"/>
         <!-- Unnamed () -->
         <div id="u178" class="text">
-          <p><span>表格字段</span></p><p><span>对应订单号：点击对应订单号，可以查看对应订单的订单详情</span></p><p><span>开票金额：即订单金额，开票金额必须等于订单金额</span></p><p><span>&nbsp;</span></p><p><span>开票状态：</span></p><p><span>待开票，提交新开发票申请后的状态</span></p><p><span>已开票，财务处理过的状态</span></p><p><span>未通过，财务发现有问题，未通过的状态</span></p><p><span>&nbsp;</span></p><p><span>开票申请</span></p><p><span>发票类型：增值税专业发票只能开公司，增值税普通发票可以开个人和公司（个人和公司的却别只是名称）</span></p><p><span>发票信息：个人如果不填名称，就开个人；填写名称，开个人姓名发票；发票信息其他选项通过发票信息列表获取</span></p><p><span>对应订单号：填入订单号，点击可查看详情，可以查看订单号填对了没有</span></p>
+          <p><span>表格字段</span></p><p><span>对应订单号：点击对应订单号，可以查看对应订单的订单详情</span></p><p><span>开票金额：即订单金额，开票金额必须等于订单金额</span></p><p><span>&nbsp;</span></p><p><span>开票状态：</span></p><p><span>待开票，提交新开发票申请后的状态</span></p><p><span>已开票，财务处理过的状态</span></p><p><span>未通过，财务发现有问题，未通过的状态</span></p><p><span>&nbsp;</span></p><p><span>开票申请</span></p><p><span>发票类型：增值税专业发票只能开公司，增值税普通发票可以开个人和公司（个人和公司的却别只是名称）</span></p><p><span>发票信息：个人如果不填名称，就开个人；填写名称，开个人姓名发票；发票信息其他选项通过发票信息列表获取</span></p><p><span>对应订单号：填入订单号，点击可查看详情，可以查看订单号填对了没有</span></p><p><span>&nbsp;</span></p><p><span>增值税专业发票输入搜索功能</span></p><p><span>点击公司输入框，输入文字，会根据内容显示显示发票信息列表中的补全信息</span></p><p><span>如：</span></p><p><span>输入“北”，下方显示“北京xxx公司”，“北方xxx公司”</span></p>
         </div>
       </div>
     </div>
